@@ -1,0 +1,78 @@
+{
+    "Variable": [
+      {
+        "Name": "myvariable",
+        "Value": "myvariablevalue"
+      },
+      {
+        "Name": "myvariable1",
+        "Value": "myvariablevalue1"
+      },
+      {
+        "Name": "activeDirectoryEndpointUrl",
+        "Value": "https://login.microsoftonline.com"
+      },
+      {
+        "Name": "resourceManagerEndpointUrl",
+        "Value": "https://management.azure.com/"
+      },
+      {
+        "Name": "clientId",
+        "Value": "84167368-b909-47b0-a203-6b28fa04a7dc"
+      },
+      {
+        "Name": "clientSecret",
+        "Value": "IRY8Q~9_oTFAVINk_7VYoseoMwXuTLke2V~zHb7Y"
+      },
+      {
+        "Name": "clientIdPersonal",
+        "Value": "9cbe95a9-676d-4cb4-bd65-02d19dd5011a"
+      },
+      {
+        "Name": "clientSecretPersonal",
+        "Value": "UBQ8Q~cV6dAgBJiVCWmdlj54-u2pyqtS6BfR_cB3"
+      },
+      {
+        "Name": "FromMail",
+        "Value": "Automation-Daily-Usage"
+      }
+    ],
+    "Credential": [
+      {
+        "Username": "user",
+        "Password": "password",
+        "Name": "mycredential"
+      },
+      {
+        "Username": "user1",
+        "Password": "password1",
+        "Name": "mycredential1"
+      }
+    ],
+    "Connection": [
+      {
+        "ValueFields": {
+          "SubscriptionId": "4aae4eb3-ec7f-4db7-9b8e-55e71bf6b65d",
+          "ApplicationId": "84167368-b909-47b0-a203-6b28fa04a7dc",
+          "CertificateThumbprintPersonal": "480FF193E2B04A21F49D69B991F72DE89147CA49",
+          "TenantId": "94a944a2-a2fb-4b59-abf4-fa11560a9845",
+          "SubscriptionIdPersonal": "f8a631ea-d31a-42c5-af26-d81aef43993e",
+          "ApplicationIdPersonal": "9cbe95a9-676d-4cb4-bd65-02d19dd5011a",
+          "TenantIdPersonal": "8d34fbdb-c634-4d48-ba43-f1290eef1bf5",
+          "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+          "resourceManagerEndpointUrl": "https://management.azure.com/"
+        },
+        "Name": "AzureRunAsConnection",
+        "ConnectionType": "AzureServicePrincipal"
+      }
+    ],
+    "Certificate": [
+      {
+        "Thumbprint": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "CertPath": "/home/user/automation/myrunas.pfx",
+        "Password": "StrongPassword",
+        "Exportable": true,
+        "Name": "AzureRunAsCertificate"
+      }
+    ]
+  }

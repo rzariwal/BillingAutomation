@@ -1,0 +1,6 @@
+--2022-08-24 12:49:11--  https://billingautomation.azurewebsites.net/api/HttpTrigger1?
+Resolving billingautomation.azurewebsites.net (billingautomation.azurewebsites.net)... 13.92.237.218
+Connecting to billingautomation.azurewebsites.net (billingautomation.azurewebsites.net)|13.92.237.218|:443... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.
